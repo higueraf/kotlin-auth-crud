@@ -1,0 +1,8 @@
+<ehcache xmlns="http://www.ehcache.org/v3">
+    <cache alias="myEntityCache">
+        <heap unit="entries">1000</heap>
+        <expiry>
+            <ttl unit="seconds">3600</ttl>
+        </expiry>
+    </cache>
+</ehcache>
